@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+/* Resize icons */
+i {
+    font-size: 32px; /* Set icon size */
+    color: #fdfffe; /* Set icon color */
+    margin: 10px;
+  }
+  
+  /* Change color on hover */
+  i:hover {
+    color: #5f9ea0;
+  }
+  
+/* Set the background color for the whole page */
+body {
+    background-image: url('https://image.freepik.com/free-vector/computer-e-commerce-products-with-flat-design_23-2147660729.jpg');
+    background-size: cover;  /* Optional: scales the image to cover the entire element */
+    background-position: center;  /* Optional: positions the image at the center */
+    background-repeat: no-repeat;  /* Optional: prevents the image from repeating */
+}
+.logo {
+    font-size: 24px;
+}
+
+.search-bar {
+    flex-grow: 15;
+    margin: 0 30px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    margin:auto
+}
+
+nav a {
+    color: rgb(218, 183, 183);
+    margin-left: 20px;
+    text-decoration: none;
+}
+/*right banner*/
+.side-banner {
+    width: 250px; /* Set the width of the banner */
+    height: 100vh; /* Full viewport height */
+    position: fixed; /* Fixes the banner on the right side */
+    right: 0; /* Change left to right */
+    top: 0;
+    background-color: #4CAF50; /* Banner background color */
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
+
+.sidebar {
+    background-color: rgb(89, 89, 99);
+    padding: 20px;
+    width: 200px;
+    position:fixed;
+    
+}
+
+.sidebar h2 {
+    margin-top: 10;
+   
+}
+
+.sidebar ul {
+    list-style-type: filled circle;
+    padding: 0;
+
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+
+}
+
+.sidebar a {
+    text-decoration: red;
+    color: #fdfdfd;
+}
+
+main {
+    margin-left: 220px;
+    padding: 20px;
+    
+}
+
+.product-list {
+    display:flex;
+    flex-wrap:wrap;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.product-list:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-card {
+    border: 20px solid #131212;
+    background-color: rgb(239, 243, 244);
+    border-radius: 25px;
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+    width: calc(33% - 20px);
+    text-decoration: underline;
+    
+}
+
+.product-card img {
+    max-width: 100%;
+}
+
+/* Add cart*/
+.cart {
+    position: fixed;
+    top: 100px;
+    right: 20px; 
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart ul li {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.cart .total {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.product-card .add-to-cart {
+    background-color: #4CAF50; /* Green color for button */
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.product-card .add-to-cart:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #232f3e;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.Home{
+    text-align: left;
+    padding: 20px;
+    background-color: #232f3e;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.log out{
+    text-align: right;
+    padding: 20px;
+    background-color: #232f3e;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
